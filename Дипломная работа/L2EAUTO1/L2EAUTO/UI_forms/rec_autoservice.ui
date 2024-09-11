@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>800</height>
+   </rect>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>800</width>
+    <height>800</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Записи в автосервис</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="add_record_button">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>380</y>
+      <width>201</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Tw Cen MT</family>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(85, 255, 0);</string>
+    </property>
+    <property name="text">
+     <string>ДОБАВИТЬ</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="back_button">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>560</y>
+      <width>201</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Tw Cen MT</family>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>НАЗАД</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="edit_record_button">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>440</y>
+      <width>201</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Tw Cen MT</family>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 127);</string>
+    </property>
+    <property name="text">
+     <string>РЕДАКТИРОВАТЬ </string>
+    </property>
+   </widget>
+   <widget class="QTableView" name="tableView">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>50</y>
+      <width>801</width>
+      <height>311</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>-10</y>
+      <width>361</width>
+      <height>74</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Tw Cen MT</family>
+      <pointsize>22</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>ЗАПИСИ В АВТОСЕРВИС </string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="delete_record_button">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>500</y>
+      <width>201</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Tw Cen MT</family>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 0, 0);</string>
+    </property>
+    <property name="text">
+     <string>УДАЛИТЬ</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

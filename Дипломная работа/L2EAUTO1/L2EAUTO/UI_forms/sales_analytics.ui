@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SalesAnalyticsForm</class>
+ <widget class="QMainWindow" name="SalesAnalyticsForm">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Аналитика продаж</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTableView" name="tableView">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>780</width>
+      <height>500</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="back_button">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <x>520</x>
+      <width>100</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Назад</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar"/>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>AutoForm</class>
+ <widget class="QDialog" name="AutoForm">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>277</width>
+    <height>632</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Доб./Ред. Авто</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>50</y>
+     <width>240</width>
+     <height>565</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QLabel" name="label_brand">
+      <property name="text">
+       <string>Бренд</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QComboBox" name="brand_combo"/>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_model">
+      <property name="text">
+       <string>Модель</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QComboBox" name="model_combo"/>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_color">
+      <property name="text">
+       <string>Цвет</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="color"/>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_price">
+      <property name="text">
+       <string>Стоимость</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="price"/>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_seat_count">
+      <property name="text">
+       <string>Кол-во сидений</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="seat_count"/>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_length">
+      <property name="text">
+       <string>Длина</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="length"/>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_width">
+      <property name="text">
+       <string>Ширина</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="width"/>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_height">
+      <property name="text">
+       <string>Высота</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="height"/>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_max_speed">
+      <property name="text">
+       <string>Максимальная скорость</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="max_speed"/>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_fuel_consumption">
+      <property name="text">
+       <string>Расход топлива</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="fuel_consumption"/>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_stock_count">
+      <property name="text">
+       <string>В наличии шт.</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="stock_count"/>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_engine">
+      <property name="text">
+       <string>Тип двигателя</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QComboBox" name="engine_combo"/>
+    </item>
+    <item>
+     <widget class="QPushButton" name="submit_button">
+      <property name="text">
+       <string>Подтвердить</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

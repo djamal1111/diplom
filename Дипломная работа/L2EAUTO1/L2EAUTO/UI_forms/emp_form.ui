@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>EmpForm</class>
+ <widget class="QDialog" name="EmpForm">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>500</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Доб./Ред. Сотрудника</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QLabel" name="label">
+     <property name="text">
+      <string>Добавление/Редактирование Сотрудника</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="label_position">
+     <property name="text">
+      <string>Должность:</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QComboBox" name="position_combo"/>
+   </item>
+   <item>
+    <widget class="QLabel" name="label_last_name">
+     <property name="text">
+      <string>Фамилия:</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLineEdit" name="last_name"/>
+   </item>
+   <item>
+    <widget class="QLabel" name="label_first_name">
+     <property name="text">
+      <string>Имя:</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLineEdit" name="first_name"/>
+   </item>
+   <item>
+    <widget class="QLabel" name="label_middle_name">
+     <property name="text">
+      <string>Отчество:</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLineEdit" name="middle_name"/>
+   </item>
+   <item>
+    <widget class="QLabel" name="label_date_of_birth">
+     <property name="text">
+      <string>Дата рождения:</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QDateEdit" name="date_of_birth"/>
+   </item>
+   <item>
+    <widget class="QLabel" name="label_passport_series">
+     <property name="text">
+      <string>Серия паспорта:</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLineEdit" name="passport_series"/>
+   </item>
+   <item>
+    <widget class="QLabel" name="label_passport_number">
+     <property name="text">
+      <string>Номер паспорта:</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLineEdit" name="passport_number"/>
+   </item>
+   <item>
+    <widget class="QLabel" name="label_email">
+     <property name="text">
+      <string>Email:</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLineEdit" name="email"/>
+   </item>
+   <item>
+    <widget class="QLabel" name="label_phone">
+     <property name="text">
+      <string>Телефон:</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLineEdit" name="phone"/>
+   </item>
+   <item>
+    <widget class="QLabel" name="label_login">
+     <property name="text">
+      <string>Логин:</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLineEdit" name="login"/>
+   </item>
+   <item>
+    <widget class="QLabel" name="label_password">
+     <property name="text">
+      <string>Пароль:</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLineEdit" name="password"/>
+   </item>
+   <item>
+    <widget class="QLabel" name="label_education">
+     <property name="text">
+      <string>Образование:</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLineEdit" name="education"/>
+   </item>
+   <item>
+    <widget class="QPushButton" name="submit_button">
+     <property name="text">
+      <string>Подтвердить</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
